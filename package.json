@@ -1,0 +1,23 @@
+{
+  "name": "hangman-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "prop-types": "15.6.2",
+    "react": "16.5.2",
+    "react-dom": "16.5.2"
+  },
+  "devDependencies": {
+    "@types/prop-types": "15.5.6",
+    "@types/react": "16.4.16",
+    "@types/react-dom": "16.0.9",
+    "parcel-bundler": "^1.6.1",
+    "sass": "^1.21.0"
+  },
+  "keywords": []
+}

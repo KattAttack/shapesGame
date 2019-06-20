@@ -1,0 +1,186 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.ShapesContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.PentagonContainer {
+  padding-left: 20px;
+}
+
+.HexagonContainer {
+  padding-left: 20px;
+}
+
+.OctagonContainer {
+  padding-left: 20px;
+}
+
+.BottomHalf {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.TopHalf {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50%;
+}
+
+.ShapesHeader {
+  font-size: 40px;
+  display: flex;
+}
+
+.LetterS1 {
+  color: #e50000;
+}
+
+.LetterH {
+  color: purple;
+}
+
+.LetterA {
+  color: #fd870f;
+}
+
+.LetterP {
+  color: blue;
+}
+
+.LetterE {
+  color: green;
+}
+
+.LetterS2 {
+  color: yellow;
+}
+
+.Bhang {
+  color: white;
+}
+
+.GameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 487px;
+}
+
+.SvgShapeContainer {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+.SvgShape {
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 60px;
+}
+
+.DashContainer {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+
+.Dash {
+  border-bottom: 2px solid white;
+  color: white;
+  width: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+  align-self: center;
+}
+
+.ReplaceDash {
+  border-bottom: 2px solid black;
+  color: white;
+  width: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+  align-self: center;
+}
+
+.LettersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.LetterContainer {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.LetterClicked {
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-self: center;
+  cursor: default;
+}
+
+.MessageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.MessageTextContainer {
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-self: center;
+}
+
+.ButtonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 120px;
+}
+
+.Button {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-self: center;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 20px;
+  border: white 1px solid;
+  border-radius: 8px;
+}
+
+.TrophyImg {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=/shapes.c86ce131.css.map */

@@ -1,0 +1,18 @@
+// LetterBank render () { win/lose message logic }
+if (clickedLetterCount === secretWord.length) {
+  return (
+    <div>
+      <div className="MessageContainer">
+        <div className="MessageTextContainer"> {winMessageText} </div>
+      </div>
+    </div>
+  );
+} else {
+  return (
+    <div>
+      <div className="MessageContainer">
+        <div className="MessageTextContainer"> {loseMessageText} </div>
+      </div>
+    </div>
+  );
+}
